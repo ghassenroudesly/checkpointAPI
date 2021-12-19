@@ -1,0 +1,49 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(12, 27, 32);
+  color: white;
+  height: 10vh;
+}
+button {
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1.1em;
+}
+button:hover {
+  background-color: grey;
+}
+.links {
+  color: grey;
+  text-decoration: none;
+}
+.links:hover {
+  background-color: white;
+}
+.btns {
+  background-color: gray;
+  width: 150px;
+}
+.card{
+  display: flex;
+}
+.card_left {
+  width: 120%;
+  height: 100px;
+  /* display: inline-flex */
+  float: left;
+  display:flex;
+  overflow: hidden;
+  background: transparent;
+}
+.card_right {
+  width: 100%;
+  /* float: inline-start; */
+  display: flex;
+  background: #b4b4b7;
+  height: 80px;
+}
